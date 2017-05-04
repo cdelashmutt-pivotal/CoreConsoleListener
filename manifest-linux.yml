@@ -1,0 +1,4 @@
+---
+applications:
+  - name: console-app-linux
+    path: bin\release\netcoreapp1.1\publish 

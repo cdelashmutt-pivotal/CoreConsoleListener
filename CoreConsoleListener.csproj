@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net451;netcoreapp1.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifiers>win81-x64</RuntimeIdentifiers>
+    <TargetRuntimeVersion>1.1.1</TargetRuntimeVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

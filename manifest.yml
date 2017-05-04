@@ -1,0 +1,7 @@
+---
+applications:
+  - name: console-app-win
+    path: bin\release\net451\win81-x64\publish 
+    stack: windows2012R2
+    buildpack: binary_buildpack
+    command: cmd /c CoreConsoleListener --server.urls http://0.0.0.0:%PORT%
